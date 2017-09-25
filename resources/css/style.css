@@ -13,6 +13,7 @@ body {
     font-family: "Helvetica";
     color: seashell;
     text-align: center;
+    background-color: black;
 }
 
 /***** Navigation *****/
@@ -61,13 +62,50 @@ nav span {
     background-image: url(../images/img-mission-background.jpg);
 }
 
-.missbox {
+.misstext {
     margin-top: 17em;
-    width: 1200px;
+    width: 100%;
     align-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: black;
+}
+
+/***** Tea Content *****/
+
+.tea {
+    height: 700px;
+    width: 1000px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.teatext {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.item {
+    padding: 15px;
+    width: 300px;
+    display: inline-block;
+}
+
+.item img {
+    height: 200px;
+    width: 300px;
+    display: block;
+}
+
+.item span {
+    display: block;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 5px;
 }
 
 /***** Text Styles *****/
