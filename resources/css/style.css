@@ -98,16 +98,44 @@ nav span {
 .item img {
     height: 200px;
     width: 300px;
-    display: block;
 }
 
 .item span {
-    display: block;
     font-weight: bold;
     font-size: 1.3em;
     padding: 5px;
 }
 
+/***** Locations Content *****/
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background-image: url(../images/img-locations-background.jpg);
+}
+
+.lotext {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.locontainer {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lobox {
+    display: inline-block;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-top: 15px;
+    padding-top: 20px;
+}
 /***** Text Styles *****/
 
 a {
@@ -119,8 +147,18 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+}
+
 h4 {
     display: block;
     font-size: 1.3em;
     padding-top: 20px;
+}
+
+p {
+    font-size: 22px; 
+    line-height: 3em;
 }
