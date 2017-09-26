@@ -136,10 +136,29 @@ nav span {
     margin-top: 15px;
     padding-top: 20px;
 }
+
+/***** Contact Content *****/
+
+.contact {
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.context {
+    padding-bottom: 3em;
+}
+
 /***** Text Styles *****/
 
 a {
     color: white;
+}
+
+p {
+    font-size: 22px; 
+    line-height: 3em;
+    padding-top: 0.8em;
 }
 
 h2 {
@@ -149,7 +168,6 @@ h2 {
 
 h3 {
     font-size: 1.6em;
-    padding-bottom: 0.5em;
 }
 
 h4 {
@@ -158,7 +176,8 @@ h4 {
     padding-top: 20px;
 }
 
-p {
-    font-size: 22px; 
+h5 {
+    font-size: 1.1em;
     line-height: 3em;
+    padding-top: 1.5em;
 }
