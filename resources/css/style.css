@@ -54,7 +54,7 @@ nav span {
 
 /***** Mission Content *****/
 
-.mission {
+#mission {
     width: 1200px;
     height: 700px;
     padding-top: 70px;
@@ -73,7 +73,7 @@ nav span {
 
 /***** Tea Content *****/
 
-.tea {
+#tea {
     height: 700px;
     width: 1000px;
     padding-top: 70px;
@@ -89,18 +89,18 @@ nav span {
     padding-top: 30px;
 }
 
-.item {
+.teabox {
     padding: 15px;
     width: 300px;
     display: inline-block;
 }
 
-.item img {
+.teabox img {
     height: 200px;
     width: 300px;
 }
 
-.item span {
+.teabox span {
     font-weight: bold;
     font-size: 1.3em;
     padding: 5px;
@@ -108,11 +108,11 @@ nav span {
 
 /***** Locations Content *****/
 
-.locations {
+#locations {
     height: 500px;
     width: 1200px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 80px;
     background-image: url(../images/img-locations-background.jpg);
 }
 
@@ -134,7 +134,8 @@ nav span {
     background-color: black;
     opacity: 1;
     margin-top: 15px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 /***** Contact Content *****/
@@ -149,7 +150,7 @@ nav span {
     padding-bottom: 3em;
 }
 
-/***** Contact Content *****/
+/***** Footer *****/
 
 .copyright {
     width: 100%;
