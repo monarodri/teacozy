@@ -149,6 +149,14 @@ nav span {
     padding-bottom: 3em;
 }
 
+/***** Contact Content *****/
+
+.copyright {
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
 /***** Text Styles *****/
 
 a {
@@ -180,4 +188,9 @@ h5 {
     font-size: 1.1em;
     line-height: 3em;
     padding-top: 1.5em;
+}
+
+h6 {
+    font-size: 1.2em;
+    text-align: left;
 }
